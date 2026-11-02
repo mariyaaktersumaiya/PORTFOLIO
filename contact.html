@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mariya Akter Sumaiya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="topbar"><a class="logo" href="index.html"><span class="logo-icon">M</span><span>Mariya<span
+                    class="dot">.</span></span></a><button class="mobile-menu" id="mobileMenu"
+            aria-label="Toggle navigation"><span></span><span></span></button>
+        <nav class="nav" id="nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link"
+                href="about.html">About Me</a><a class="nav-link" href="skills.html">Skills</a><a class="nav-link"
+                href="projects.html">Projects</a><a class="nav-link active" href="contact.html">Contact</a></nav>
+        <div class="top-actions"><button class="theme-toggle" id="themeToggle"
+                aria-label="Toggle dark/light mode">☾</button><a class="top-cta" href="contact.html">Let's talk ↗</a>
+        </div>
+    </header>
+    <main class="wrap inner-page contact-page">
+        <div class="page-hero">
+            <p class="kicker">LET'S START A CONVERSATION</p>
+            <h1>Have a good idea?<br><span class="gradient-text">I'm listening.</span></h1>
+            <p class="page-lead">Interested in a project, collaboration or opportunity? Send a note and let's talk about
+                it.</p>
+        </div>
+        <section class="contact-layout">
+            <div class="contact-left">
+                <div class="contact-highlight"><span class="contact-big-icon">✳</span>
+                    <p class="kicker">OPEN TO OPPORTUNITIES</p>
+                    <h2>Let's make something<br>meaningful.</h2>
+                    <p>I'm always interested in learning, meeting creative people and exploring useful ideas.</p>
+                </div>
+                <div class="contact-method"><span class="method-icon">✉</span>
+                    <div><small>EMAIL ME</small><a id="emailLink"
+                            href="mailto:mariyaakther035@gmail.com">mariyaakther035@gmail.com</a></div><button
+                        class="copy-email" id="copyEmail" aria-label="Copy email address">Copy</button>
+                </div>
+                <div class="contact-method"><span class="method-icon">⌖</span>
+                    <div><small>LOCATION</small><strong>Bangladesh · Open to remote</strong></div>
+                </div>
+                <p class="contact-note">Update the email address in <code>js/script.js</code> if you want to use a
+                    different inbox.</p>
+            </div>
+            <form class="contact-form contact-form-large" id="contactForm">
+                <div class="form-heading"><span class="kicker">YOUR MESSAGE</span>
+                    <h2>Tell me about it.</h2>
+                </div><label for="senderName">Your name</label><input id="senderName" name="name" type="text"
+                    placeholder="What should I call you?" required><label for="senderEmail">Your email</label><input
+                    id="senderEmail" name="email" type="email" placeholder="you@example.com" required><label
+                    for="senderTopic">What is this about?</label><select id="senderTopic" name="topic">
+                    <option>Project inquiry</option>
+                    <option>Job opportunity</option>
+                    <option>Collaboration</option>
+                    <option>Just saying hello</option>
+                </select><label for="senderMessage">Your message</label><textarea id="senderMessage" name="message"
+                    rows="5" placeholder="A few details about your idea..." required></textarea><button
+                    class="btn btn-primary form-submit" type="submit">Prepare email <span>↗</span></button>
+                <p class="form-status" id="formStatus" role="status">This opens your email app with a prepared message.
+                    It doesn't send automatically.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer wrap"><a class="logo" href="index.html"><span class="logo-icon">M</span><span>Mariya<span
+                    class="dot">.</span></span></a><span>Designed & built with care · <span id="year"></span></span>
+        <div><a href="about.html">About</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div>
+    </footer>
+</body>
+
+</html>
