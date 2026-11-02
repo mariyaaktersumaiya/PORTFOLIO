@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mariya Akter Sumaiya — Developer Portfolio">
+  <title>Mariya Akter Sumaiya | Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-icon">M</span><span>Mariya<span class="dot">.</span></span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About Me</a>
+      <a class="nav-link" href="skills.html">Skills</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    <div class="top-actions"><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">☾</button><a class="top-cta" href="contact.html">Let's talk <span>↗</span></a></div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> DEVELOPER PORTFOLIO <span class="availability-line"></span> 2026</div>
+        <p class="hero-intro">Hello, I'm</p>
+        <h1>Mariya Akter<br><span class="gradient-text">Sumaiya</span><span class="title-period">.</span></h1>
+        <div class="role-line"><span class="role-bracket">{</span><span id="roleText">Frontend Developer</span><span class="role-bracket">}</span></div>
+        <p class="hero-desc">I create modern, responsive and thoughtful web experiences. Turning ideas into useful digital products with clean code and a detail-focused mindset.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="projects.html">Explore projects <span>↗</span></a><a class="btn btn-outline" href="about.html">More about me <span>→</span></a></div>
+        <div class="social-proof"><span class="social-avatars"><i>M</i><i>&lt;/&gt;</i><i>✳</i></span><span>Curious mind. <b>Consistent growth.</b></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-grid"></div><div class="art-ring ring-a"></div><div class="art-ring ring-b"></div>
+        <div class="hero-photo-card">
+          <div class="photo-card-top"><span>PROFILE_001</span><span class="live-label"><i></i> ONLINE</span></div>
+          <div class="hero-photo"><img id="profileImage" src="assets/mariya.jpg" alt="Profile portrait placeholder"><label for="photoInput" class="photo-change">＋ Upload photo</label><input type="file" id="photoInput" accept="image/*" hidden></div>
+          <div class="photo-card-bottom"><div><strong>Mariya Akter Sumaiya</strong><span>Developer · Bangladesh</span></div><span class="photo-arrow">↗</span></div>
+        </div>
+        <div class="floating-card float-code"><span class="float-icon">&lt;/&gt;</span><div><b>Clean code</b><small>Built with purpose</small></div></div>
+        <div class="floating-card float-stack"><span class="float-icon">✳</span><div><b>Creative mindset</b><small>Always learning</small></div></div>
+        <div class="orbit-dot dot-one"></div><div class="orbit-dot dot-two"></div>
+      </div>
+    </section>
+    <section class="ticker" aria-label="Technologies"><div class="ticker-track"><span>HTML5</span><i>✳</i><span>CSS3</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>RESPONSIVE UI</span><i>✳</i><span>PYTHON</span><i>✳</i><span>HTML5</span><i>✳</i><span>CSS3</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i><span>RESPONSIVE UI</span><i>✳</i><span>PYTHON</span><i>✳</i></div></section>
+    <section class="section wrap intro-section">
+      <div class="section-top"><div><p class="kicker">A QUICK INTRODUCTION</p><h2>Building with purpose.<br><span class="gradient-text">Growing with every line.</span></h2></div><a class="round-link" href="about.html" aria-label="About me">↗</a></div>
+      <div class="intro-cards">
+        <article class="intro-card card-purple"><span class="card-index">01 / ABOUT</span><div class="intro-card-icon">✳</div><h3>Curious by nature.</h3><p>I enjoy learning how the web works and creating interfaces that feel clear, helpful and easy to use.</p><a href="about.html">Meet me <span>↗</span></a><div class="card-decoration">M.</div></article>
+        <article class="intro-card card-dark"><span class="card-index">02 / APPROACH</span><div class="intro-card-icon">&lt;/&gt;</div><h3>Details matter.</h3><p>From responsive layouts to thoughtful interactions, I aim to make every page feel considered.</p><a href="skills.html">My toolkit <span>↗</span></a><div class="card-decoration code-decoration">{ }</div></article>
+        <article class="intro-card card-light"><span class="card-index">03 / WORK</span><div class="intro-card-icon">↗</div><h3>Ideas into reality.</h3><p>Small projects are where I practice, experiment and turn new skills into useful experiences.</p><a href="projects.html">View projects <span>↗</span></a><div class="card-decoration">✳</div></article>
+      </div>
+    </section>
+    <section class="section wrap project-feature">
+      <div class="section-top"><div><p class="kicker">SELECTED PROJECTS</p><h2>A few things I've<br><span class="gradient-text">been working on.</span></h2></div><div class="slider-controls"><button id="projectPrev" aria-label="Previous project">←</button><span id="projectCount">01 / 03</span><button id="projectNext" aria-label="Next project">→</button></div></div>
+      <div class="project-slider" id="projectSlider">
+        <article class="featured-project">
+          <div class="featured-visual visual-one"><span class="visual-label">PROJECT / 01</span><div class="browser-card"><div class="browser-bar"><i></i><i></i><i></i><span>portfolio.site</span></div><div class="browser-content"><div class="browser-copy"><small>HELLO, WORLD</small><b>Design.<br>Build.<br><em>Repeat.</em></b><span></span></div><div class="browser-shape"></div></div></div><span class="visual-ghost">01</span></div>
+          <div class="featured-info"><div class="project-meta">FRONTEND DEVELOPMENT <span>01—03</span></div><h3>Personal Portfolio</h3><p>A modern responsive portfolio concept with a clear structure, elegant details and a light/dark theme.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-arrow" href="projects.html">Project details <span>↗</span></a></div>
+        </article>
+        <article class="featured-project">
+          <div class="featured-visual visual-two"><span class="visual-label">PROJECT / 02</span><div class="dash-mock"><div class="dash-nav"></div><div class="dash-main"><div class="dash-title"></div><div class="dash-stats"><i></i><i></i><i></i></div><div class="dash-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div><span class="visual-ghost">02</span></div>
+          <div class="featured-info"><div class="project-meta">UI DESIGN <span>02—03</span></div><h3>Dashboard Concept</h3><p>A clean dashboard layout concept designed to make key information easy to scan and understand.</p><div class="tag-row"><span>UI</span><span>CSS Grid</span><span>Responsive</span></div><a class="text-arrow" href="projects.html">Project details <span>↗</span></a></div>
+        </article>
+        <article class="featured-project">
+          <div class="featured-visual visual-three"><span class="visual-label">PROJECT / 03</span><div class="task-mock"><div class="task-head"><span>Today</span><b>My tasks</b><i>＋</i></div><div class="task-row"><i>✓</i><span>Plan the week</span><b>✓</b></div><div class="task-row"><i></i><span>Build a new idea</span><b>•••</b></div><div class="task-row"><i></i><span>Keep learning</span><b>•••</b></div></div><span class="visual-ghost">03</span></div>
+          <div class="featured-info"><div class="project-meta">JAVASCRIPT TOOL <span>03—03</span></div><h3>Task Organizer</h3><p>A simple productivity interface concept focused on clear actions and everyday task management.</p><div class="tag-row"><span>JavaScript</span><span>DOM</span><span>UX</span></div><a class="text-arrow" href="projects.html">Project details <span>↗</span></a></div>
+        </article>
+      </div>
+      <div class="slider-progress"><span id="sliderProgress"></span></div>
+      <p class="sample-note">Sample project concepts shown — replace with your real work before sharing professionally.</p>
+    </section>
+    <section class="cta-strip wrap"><div><p class="kicker">HAVE SOMETHING IN MIND?</p><h2>Let's build something<br><span class="gradient-text">worth clicking.</span></h2></div><a class="btn btn-primary" href="contact.html">Start a conversation <span>↗</span></a><div class="cta-spark">✳</div></section>
+  </main>
+  <footer class="footer wrap"><a class="logo" href="index.html"><span class="logo-icon">M</span><span>Mariya<span class="dot">.</span></span></a><span>Designed & built with care · <span id="year"></span></span><div><a href="about.html">About</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></div></footer>
+</body>
+</html>
